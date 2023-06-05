@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<List/>}/>
-      <Route path="/view" element={<View/>}/>
+      <Route path="/view/:id" element={<View/>}/>
       </Routes>
       </BrowserRouter>
   );
